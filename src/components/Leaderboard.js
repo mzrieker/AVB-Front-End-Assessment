@@ -56,7 +56,7 @@ export default function Leaderboard() {
             </ListItemAvatar>
             <ListItemText
               primary={
-                sortedCommentCounts[0][1] + " " + sortedCommentCounts[0][0]
+                sortedCommentCounts[0][1] + " with " + sortedCommentCounts[0][0] + " comments"
               }
             />
           </ListItem>
@@ -66,7 +66,7 @@ export default function Leaderboard() {
             </ListItemAvatar>
             <ListItemText
               primary={
-                sortedCommentCounts[1][1] + " " + sortedCommentCounts[1][0]
+                sortedCommentCounts[1][1] + " with " + sortedCommentCounts[1][0] + " comments"
               }
             />
           </ListItem>
@@ -76,7 +76,7 @@ export default function Leaderboard() {
             </ListItemAvatar>
             <ListItemText
               primary={
-                sortedCommentCounts[2][1] + " " + sortedCommentCounts[2][0]
+                sortedCommentCounts[2][1] + " with " + sortedCommentCounts[2][0] + " comments"
               }
             />
           </ListItem>
